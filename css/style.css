@@ -1,0 +1,113 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #95827E;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+ <style>
+    /* Reset some default styles */
+    body, ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Style for the tab container */
+    .tab-container {
+      display: flex;
+      border: 1px solid #ccc;
+      max-width: 400px;
+    }
+
+    /* Style for each tab */
+    .tab {
+      flex: 1;
+      text-align: center;
+      padding: 10px;
+      cursor: pointer;
+      background-color: #f1f1f1;
+      border-right: 1px solid #ccc;
+    }
+
+    /* Style for the active tab */
+    .tab.active {
+      background-color: #ccc;
+    }
+
+    /* Hide tab content by default */
+    .tab-content {
+      display: none;
+      padding: 20px;
+    }
+
+    /* Show tab content when the corresponding tab is active */
+    .tab-content.active {
+      display: block;
+    }
+  </style>
